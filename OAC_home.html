@@ -1,0 +1,206 @@
+<html>
+    <head>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <link rel="stylesheet" type="text/css" href="OAC_home.css">
+            <link rel="stylesheet" type="text/css" href="OAC_general.css">
+            <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+            <script src="customizeOAC.js"></script>
+            <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+
+        <title></title>
+        <style>
+
+        </style>
+
+    </head>
+    <body>
+
+    <div id="outercontainer">
+        <div id="headerbar">
+                <nav role="navigation">
+                        <div id="menuToggle">
+                            <input type="checkbox">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                            <ul id="menu">
+                                    <a href="OAC_home.html"><li>HOME</li></a>
+                                    <a href="OAC_about.html"><li>ABOUT</li></a>
+                                    <a href=""><li>SHOP</li></a>
+                                    <a href=""><li>CONTACT</li></a>
+                                    <dl>
+                                           <li><dt id="investors"> FOR INVESTORS </dt></li>
+                                           <a><dd class="investmenu">problem/solution</dd></a>
+
+                                           <a><dd class="investmenu">marketplace</dd></a>
+
+                                           <a><dd class="investmenu">the deal</dd></a>
+
+                                           <a><dd class="investmenu">pilot</dd></a>
+
+                                           <a><dd class="investmenu">timeline</dd></a>
+                                    </dl>
+                                    <a href=""><li>ASSIGNMENT BREAKDOWN</li></a>
+
+
+                                </ul>
+
+                        </div> <!-- close menu troggle -->
+                    </nav>
+                    <div id="logo">
+                        <img id="logo_img" src="images/headerlogo_oac.png">
+                    </div>
+                    <div id="changecolor">
+
+                    </div>
+
+                    <!-- <div id="changecolor_1">
+
+                    </div> -->
+
+
+        </div> <!-- close headerbar-->
+
+
+
+
+
+        <div id=mainimage>
+
+        </div>
+        <div id="welcome">
+            <div id="welcomeText">
+                <h1>WELCOME TO OUROBOROS APPAREL CO.</h1><br>
+                LEARN MORE WITH OUR ABOUT PAGE AND JOIN THE OUROROS FAMILY HERE.
+
+            </div>
+
+        </div> <!-- close welcome -->
+        <div id="overall">
+        <div id="ourstory" class="description">
+            <div id="ourstorypic">
+
+            </div>
+            <div id="ourstorytext" class="text">
+            <h2>OUR STORY</h2>
+            From as early as the Thirteenth Century B.C.E., the symbol of a serpent devouring its own tail has served as an emblem of wholeness, rebirth, and infinity. Known as “Ouroboros”, it guides the way that we craft our work, with proceeds donated to protect the very planet from which our products were born. Ultimately, we aim to make preservation second nature, integrating social awareness into every product that we sell and inspiring donations from sources that are otherwise untapped.
+            </div>
+            <div id="learnmorestory" class="button">
+                <strong>
+                    LEARN MORE
+                </strong>
+            </div>
+        </div>
+
+        <div id = "ourbracelets" class = "description">
+            <div id='braceletspic'>
+
+            </div>
+            <div id="ourbraceletstext" class="text">
+                <h2>OUR BRACELETS</h2>
+                Each bracelet is meticulously threaded, tied, and then glued to ensure a quality fit and reliable hold. Once finished, the bracelet is placed into an iconic Ouroboros burlap pouch with a card telling you more about our company, a card telling you more about your bracelet and who made it, and finally a sticker to deck out anything you desire. At Ouroboros, we are committed to crafting both the best products and experiences for every single client.
+            </div>
+            <div id="ourbraceletsbutton" class="button">
+                SHOP OUR STYLES
+            </div>
+        </div> <!-- close ourbracelets -->
+        </div>
+        <div class="cleardiv">
+
+        </div>
+        <div id="mission">
+            <div id="missiontext">
+                OUR MISSION <br>
+                <h1>WE WANT TO MAKE CONSERVATION SECOND NATURE</h1>
+            </div>
+        </div>
+        <div class="cleardiv" style="height: 200px">
+
+        </div>
+        <div class="text" style="text-align: center;">
+            <h2>THE PERFECT ACCESSORY</h2>
+            Bringing a subtle and versatile splash of style to any outfit, Ouroboros bracelets the perfect accessory
+            for your wardrobe.
+            <br><br>
+            <div class="button" id="getyoursbutton">
+                GET YOURS TODAY
+            </div>
+            <br><br><br><br><br><br>
+        </div>
+        <div id="bottombar">
+            <h2>OUROBOROS APPAREL CO.</h2>
+            <br>
+            <div id="socialbar">
+                <a href="https://www.facebook.com" target="_blank"><img class="social" id ="facebook" src="images/facebook_oac.png" alt="oops sorry this photo is missing!"></a>
+                <a href="https://www.instagram.com/ouroboros.la" target="_blank"><img class="social" id ="insta" src="images/insta_oac.png" alt="oops sorry this photo is missing!"></a>
+                <a href="https://www.twitter.com" target="_blank"><img class="social" id ="twitter" src="images/twitter_oac.png" alt="oops sorry this photo is missing!"></a>
+            </div>
+            <br><br><br><br>
+            Stay up to date with Ourboros news and updates.<br><br>
+            <form>
+                <input type="text" value="Email Address" id="emailbox">
+                <br><br>
+                <div id="signupbutton" class="button" style="margin: auto; width:130px;">
+                    SIGN UP
+                </div>
+            </form>
+        </div>
+
+
+
+    </div> <!-- close outercontainer -->
+
+
+<script>
+$(document).ready(function(){
+$("#changecolor").on("click",function(){
+  $("#changecolor").css("background-color","white");
+  $("#headerbar").css("background-color","#101010");
+  $("#bottombar").css("background-color","#101010");
+  $("body").css("background-color","#101010");
+  $("body").css("color","white");
+  $(".text").css("color","white");
+  $(".text h2").css("color","white");
+  $(".button").css("color","white");
+  $(".button").css("border","solid white 2px");
+  $("#logo_img").attr("src","images/headerlogo_oac_white.png");
+  $("#facebook").attr("src","images/facebook_oac_white.png");
+  $("#insta").attr("src","images/insta_oac_white.png");
+  $("#twitter").attr("src","images/twitter_oac_white.png");
+  $("#menuToggle span").css("color","white");
+  $("#menu").css("background-color","101010");
+  $("#menu a").css("color","white");
+
+  $("#changecolor").on("click",function(){
+    $("#changecolor").css("background-color","#101010");
+    $("#headerbar").css("background-color","white");
+    $("#bottombar").css("background-color","white");
+    $("body").css("background-color","white");
+    $("body").css("color","black");
+    $(".text").css("color","black");
+    $(".text h2").css("color","black");
+    $(".button").css("color","black");
+    $(".button").css("border","solid black 2px");
+    $("#logo_img").attr("src","images/headerlogo_oac.png");
+    $("#facebook").attr("src","images/facebook_oac.png");
+    $("#insta").attr("src","images/insta_oac.png");
+    $("#twitter").attr("src","images/twitter_oac.png");
+    $("#menu").css("background-color","white");
+    $("#menu a").css("color","#101010");
+
+  });
+
+});
+
+
+});
+
+</script>
+
+
+
+
+
+    </body>
+</html>
