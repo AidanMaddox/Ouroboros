@@ -69,10 +69,42 @@
 
 
 
+<h1 id="contactHeader"> Contact</h1>
+<br>
+<form>
+<h2 id="cTitle"> Name*</h2>
+<input type="text" id="nameBox" placeholder="Name" autofocus required/>
+
+<div class="error" id="nameError">
+
+</div><!-- Close NAme Error -->
+
+<h2 id="cTitle"> Email*</h2>
+<input type="text" id="emailBox" placeholder="Email" required/>
+
+<div class="error" id="emailError">
 
 
+</div> <!-- Close Email Error -->
+
+<h2 id="cTitle"> Subject</h2>
+<input type="text" id="subjectBox" placeholder="Subject"/>
+
+<h2 id="cTitle"> Message</h2>
+<textarea name="message" id="messageBox" rows="10" cols="50" placeholder="Your Message"></textarea>
+<div class="error" id="messageError">
 
 
+</div> <!-- Close Email Error -->
+
+<br>
+<br>
+<input id="submitButton" type="button" value="Submit">
+<br>
+<br>
+
+
+</form>
 
       <div id="bottombar">
           <h2>OUROBOROS APPAREL CO.</h2>
@@ -96,6 +128,10 @@
 
 
       <script>
+
+          checkEmail();
+          checkName();
+          checkMessage();
           cookieCheck();
           colorShift();
       </script>

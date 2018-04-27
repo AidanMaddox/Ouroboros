@@ -13,20 +13,58 @@
     padding: 5%;
     height: 500px;
 }
-#welcomeText {
+#contactHeader {
     margin: auto;
     line-height: 18px;
-    font-size: 10px;
+    font-size: 30px;
     letter-spacing: 3px;
-    text-align: center;
+    margin-left: 10%;
     margin-top: 200px;
 }
-#welcomeText h1{
-    font-family: 'Abel', sans-serif;
-    font-weight: bolder;
-    line-height: 33px;
-    font-size: 25px;
+
+#cTitle{
+  margin-left: 10%;
 }
+
+#emailBox{
+  margin-left: 10%;
+  height: 30px;
+}
+#nameBox{
+  margin-left: 10%;
+  height: 30px;
+}
+
+#subjectBox{
+  margin-left: 10%;
+  height: 30px;
+}
+#messageBox{
+  margin-left: 10%;
+
+}
+
+#submitButton{
+  margin-left: 10%;
+  height: 25px;
+  border-radius: none;
+
+}
+
+input[type=submit]{
+font-family: 'Abel', sans-serif;
+font-size: 45px;
+  width: 60px;
+}
+
+
+
+.error{
+  margin-top: 10px;
+  color: red;
+  margin-left: 10%;
+}
+
 
 .description{
     width: 100%;
@@ -158,6 +196,61 @@
         width: 300px;
         height: 300px;
     }
+    #contactHeader {
+        margin: auto;
+        line-height: 18px;
+        font-size: 30px;
+        letter-spacing: 3px;
+        margin-left: 40%;
+        margin-top: 200px;
+    }
+
+    #cTitle{
+      margin-left: 40%;
+    }
+
+    #emailBox{
+      margin-left: 40%;
+      height: 30px;
+    }
+    #nameBox{
+      margin-left: 40%;
+      height: 30px;
+    }
+
+    #subjectBox{
+      margin-left: 40%;
+      height: 30px;
+    }
+    #messageBox{
+      margin-left: 40%;
+
+    }
+
+    #submitButton{
+      margin-left: 40%;
+      font-size: 45px;
+      border-radius: none;
+      font-size: 45px;
+
+    }
+
+    input[type=submit]{
+    font-family: 'Abel', sans-serif;
+    font-size: 45px;
+      width: 60px;
+    }
+
+
+
+    .error{
+      margin-top: 10px;
+      color: red;
+      margin-left: 40%;
+    }
+
+
+
 }
 @media screen and (min-width:1398px ){
     #ourstorypic{
@@ -168,4 +261,8 @@
         width: 500px;
         height: 500px;
     }
+
+
+
+
 }
