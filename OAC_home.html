@@ -7,6 +7,8 @@
             <script src="customizeOAC.js"></script>
             <script src="colorshiftOAC.js"></script>
 
+            <script src="search.js"></script>
+
             <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 
           <script type="text/javascript" src="jquery.jcarousel.js"></script>
@@ -31,12 +33,12 @@
     </head>
     <body>
 
-      <!-- <script>
-
-      cookieCheck();
+      <script>
 
 
-      </script> -->
+
+
+      </script>
 
     <div id="outercontainer">
         <div id="headerbar">
@@ -65,6 +67,7 @@
                                            <a><dd class="investmenu">timeline</dd></a>
                                     </dl>
                                     <a href=""><li>ASSIGNMENT BREAKDOWN</li></a>
+
 
 
                                 </ul>
@@ -185,20 +188,25 @@
             <br><br><br><br>
             Stay up to date with Ourboros news and updates.<br><br>
             <form>
-                <input type="text" value="Email Address" id="emailbox">
+                <input type="text" id="searchBox" placeholder="Search...">
                 <br><br>
-                <div id="signupbutton" class="button" style="margin: auto; width:130px;">
-                    SIGN UP
-                </div>
+
+                <input type="button" id="searchButton" value="Search" >
+
             </form>
         </div>
 
+        <div class = "results">
+
+        </div> <!-- Close Results -->
 
 
     </div> <!-- close outercontainer -->
 
 
 <script>
+
+searchSite();
 cookieCheck();
 colorShift();
 

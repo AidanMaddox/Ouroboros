@@ -209,7 +209,41 @@ body {
     color: black;
 }
 
+#searchBox{
+  height: 50px;
+  width: 200px;
+  padding: 10px;
+  color: rgb(141, 141, 141);
+}
+#searchButton{
+  margin: auto;
+}
+#searchHeader{
+  margin: auto;
+  line-height: 18px;
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin-left: 10%;
+  margin-top: 200px;
+}
 
+.results{
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  text-align: center;
+
+}
+.result h2{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.results a{
+  margin-top: 0px;
+  color: grey;
+  font-size: 18px;
+}
 
 
 
