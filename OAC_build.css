@@ -1,0 +1,22 @@
+#buildHeader {
+    margin: auto;
+    line-height: 18px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-left: 10%;
+    margin-top: 200px;
+}
+#mainIMG{
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+}
+#secondaryIMG{
+  position: absolute;
+  width: 300px;
+z-index: 2;
+}
+
+button:focus {
+    border: 2px solid red;
+}
