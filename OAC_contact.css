@@ -1,0 +1,171 @@
+#mainimage{
+    margin-top: 110px;
+    width: 100%;
+    background-image: url("images/sm_a1.jpg");
+    background-size: cover;
+    background-position-x: -120px;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+#welcome {
+    width: 90%;
+    padding: 5%;
+    height: 500px;
+}
+#welcomeText {
+    margin: auto;
+    line-height: 18px;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 200px;
+}
+#welcomeText h1{
+    font-family: 'Abel', sans-serif;
+    font-weight: bolder;
+    line-height: 33px;
+    font-size: 25px;
+}
+
+.description{
+    width: 100%;
+    height: 1000px;
+    font-family: 'Abel', sans-serif;
+    margin-bottom: 80px;
+
+}
+
+.text{
+    width: 90%;
+    padding: 5%;
+    height: auto;
+    margin: auto;
+    line-height: 40px;
+    color: #7a7a7a;
+    letter-spacing: 1px;
+
+}
+.text h2{
+    color: #222121;
+}
+
+#getyoursbutton{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+#braceletspic{
+    width: 360px;
+    height: 360px;
+    /*
+    background-image: url("images/amazonite_oac.jpg");
+    background-size: cover;
+
+    */
+    margin: auto;
+}
+#mainimage{
+    margin-top: 110px;
+    width: 100%;
+    background-image: url("images/sm_a1.jpg");
+    background-size: cover;
+    background-position-x: -120px;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+#mission{
+    margin-top: 110px;
+    width: 100%;
+    background-image: url("images/Fleet.jpg");
+    background-size: cover;
+    background-position-x: -120px;
+    padding-top: 48vh;
+    height: 52vh;
+    background-repeat: no-repeat;
+
+    text-align: center;
+}
+.cleardiv{
+    width: 100%;
+    height: 1px;
+    clear: both
+}
+#missiontext {
+    margin: auto;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-align: center;
+    width: 95%;
+
+
+
+}
+#missiontext h1{
+    font-size: 20pt;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+
+
+
+/* responsive design for mainimage*/
+@media screen and (min-width:550px ){
+    #mainimage{
+        background-size: 120%;
+    }
+    #mission {
+        background-size: 120%;
+    }
+}
+@media screen and (min-width:1060px ){
+    #mainimage{
+        background-position-y: -250px;
+    }
+}
+@media screen and (min-width:1560px ){
+    #mainimage{
+        background-position-y: -500px;
+    }
+
+}
+
+
+/* responsive design for textboxes*/
+@media screen and (min-width:665px ){
+    #overall{
+        width: auto;
+        height: auto;
+       margin: auto;
+    }
+    .description{
+        width: 45%;
+        float: left;
+    }
+    #ourstory{
+        margin-left: 3%;
+    }
+    #ourbracelets{
+        margin-left: 2%;
+    }
+    #ourstorypic{
+        width: 300px;
+        height: 300px;
+    }
+    #braceletspic{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media screen and (min-width:1398px ){
+    #ourstorypic{
+        width: 500px;
+        height: 500px;
+    }
+    #braceletspic{
+        width: 500px;
+        height: 500px;
+    }
+}
