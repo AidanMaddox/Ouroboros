@@ -92,6 +92,8 @@ function toDark(){
   $("#menuToggle span").css("color","white");
   $("#menu").css("background-color","101010");
   $("#menu a").css("color","white");
+  $("#missionpic").css("background-color","#101010");
+  $("#outercontainer").css("background-color","#101010");
 
 }
 
@@ -111,4 +113,6 @@ function toLight(){
   $("#twitter").attr("src","images/twitter_oac.png");
   $("#menu").css("background-color","white");
   $("#menu a").css("color","#101010");
+  $("#missionpic").css("background-color","white");
+  $("#outercontainer").css("background-color","white");
 }
