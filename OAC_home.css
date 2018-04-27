@@ -66,9 +66,11 @@
 #braceletspic{
     width: 360px;
     height: 360px;
-
+    /*
     background-image: url("images/amazonite_oac.jpg");
     background-size: cover;
+
+    */
     margin: auto;
 }
 #mainimage{
@@ -103,9 +105,9 @@
     letter-spacing: 3px;
     text-align: center;
     width: 95%;
-    
-    
-    
+
+
+
 }
 #missiontext h1{
     font-size: 20pt;
@@ -174,5 +176,3 @@
         height: 500px;
     }
 }
-
-
