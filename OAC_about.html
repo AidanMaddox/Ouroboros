@@ -1,21 +1,15 @@
 <html>
 <head>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="about_OAC.css">
+        <link rel="stylesheet" type="text/css" href="OAC_about.css">
         <link rel="stylesheet" type="text/css" href="OAC_general.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="icon" type="image/png" href="images/favicon.png"/>
         <script src="about_OAC.js"></script>
         <script src="customizeOAC.js"></script>
         <script src="colorshiftOAC.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-
-
-
-    <title></title>
-    <style>
-
-    </style>
-
+    <title>About</title>
 </head>
 <body>
 
@@ -31,19 +25,19 @@
                         <ul id="menu">
                                 <a href="OAC_home.html"><li>HOME</li></a>
                                 <a href="OAC_about.html"><li>ABOUT</li></a>
-                                <a href=""><li>SHOP</li></a>
+                                <a href=""><li>PRODUCT</li></a>
                                 <a href=""><li>CONTACT</li></a>
                                 <dl>
                                        <li><dt id="investors"> FOR INVESTORS </dt></li>
-                                       <a><dd class="investmenu">problem/solution</dd></a>
+                                       <a><dd class="investmenu">Problem/Solution</dd></a>
 
-                                       <a><dd class="investmenu">marketplace</dd></a>
+                                       <a><dd class="investmenu">Marketplace</dd></a>
 
-                                       <a><dd class="investmenu">the deal</dd></a>
+                                       <a><dd class="investmenu">The Deal</dd></a>
 
-                                       <a><dd class="investmenu">pilot</dd></a>
+                                       <a><dd class="investmenu">Pilot</dd></a>
 
-                                       <a><dd class="investmenu">timeline</dd></a>
+                                       <a><dd class="investmenu">Timeline</dd></a>
                                 </dl>
                                 <a href=""><li>ASSIGNMENT BREAKDOWN</li></a>
 
@@ -61,7 +55,7 @@
 
     </div> <!-- close headerbar-->
     <div id="mission" class="text">
-        <img id="missionpic" src="images/landscapemix_about.jpg" alt="something went wrong, sorry!">
+        <img id="mission_hero_image" src="images/landscapemix_about.jpg" alt="something went wrong, sorry!">
         <br>
         <h2>OUR STORY</h2>
         <p>
@@ -79,35 +73,32 @@
         <p>
             Thank you for taking the time to learn more about our roots and our mission — we hope you can support us in our goal, or contribute directly to preserve our planet.
         </p>
-       <div class="button" id="productdescr">
-            MORE ABOUT OUR PRODUCTS
+       <div class="button" id="product_description">
+            <a href="OAC_product.html">OUR PRODUCTS</a>
         </div>
 
     </div>
     <div id="theteam" class="text">
-        <h2>MEET THE TEAM BEHIND OUROBOROS</h2>
+        <h2>MEET THE TEAM</h2>
         <p>
-            insert some introductory description about the team as a whole... also can someone make it so that our names are to the right of our personal bubbles? or maybe give suggestions on what you want this to be like
+            The Ouroboros team represents a number of disciplines and talents, but all represent the fourth Cohort of the Jimmy Iovine and Andre Young Academy. 
         </p>
-
-
-          <a href ="images/rikki.png">
-              <img src="images/rikki.png" id="rikki" class="team">
-          </a>
-          <a href = "images/isabella.png">
-              <img src="images/isabella.png" id="isabella" class="team">
-          </a>
-          <a href ="images/aidan.png">
-              <img src="images/aidan.png" id="aidan" class="team">
-         </a>
-         <a href="images/marissa.png">
-              <img src="images/marissa.png" id="marissa" class="team">
-        </a>
-
-
-
-      
-
+            <div class="bio">
+                <img src="images/rikki.png" id="rikki" class="team">
+                <span class="bio_caption"><p class="name">ANKIT MUKHERJEE</p><p class="description"> Will probably tell you to say "typeface" instead of "font".</p></span>
+            </div>
+            <div class="bio">
+                <img src="images/isabella.png" class="team">
+                <span class="bio_caption"><p class="name">ISABELLA JAMES</p><p class="description">Less frightening than she looks.</p></span>
+            </div>
+            <div class="bio">
+                <img src="images/aidan.png" class="team">
+                <span class="bio_caption"><p class="name">AIDAN MADDOX</p><p class="description">Most likely to kill you with a thrown axe.</p></span>
+            </div>
+            <div class="bio">
+                <img src="images/marissa.png" class="team">
+                <span class="bio_caption"><p class="name">MARISSA VERGEL DE DIOS</p><p class="description">DUDE.</p></span>
+            </div>
     </div>
     <div class="text">
         <h2>"BEHIND THE SCENES"</h2>
@@ -142,7 +133,7 @@
         <br><br><br><br>
         Stay up to date with Ourboros news and updates.<br><br>
         <form>
-            <input type="text" value="Email Address" id="emailbox">
+            <input type="text" placeholder="Email Address" id="emailbox">
             <br><br>
             <div id="signupbutton" class="button" style="margin: auto; width:130px;">
                 SIGN UP
@@ -155,8 +146,6 @@
 <script>
 cookieCheck();
 colorShift();
-
-
 </script>
 
 </body>
