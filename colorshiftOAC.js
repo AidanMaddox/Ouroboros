@@ -97,7 +97,7 @@ function toDark(){
   $("#menu a").css("color","white");
   $("#missionpic").css("background-color","#101010");
   $("#outercontainer").css("background-color","#101010");
-
+  $("#frame").attr("src", "logo_animation/index2.html");
 }
 
 function toLight(){
@@ -119,4 +119,5 @@ function toLight(){
   $("#menu a").css("color","#101010");
   $("#missionpic").css("background-color","white");
   $("#outercontainer").css("background-color","white");
+  $("#frame").attr("src", "logo_animation/index.html");
 }
