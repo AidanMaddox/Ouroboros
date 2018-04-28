@@ -13,6 +13,7 @@
     padding: 5%;
     height: 500px;
 }
+
 #welcomeText {
     margin: auto;
     line-height: 18px;
@@ -21,16 +22,13 @@
     text-align: center;
     margin-top: 200px;
 }
+
 #welcomeText h1{
     font-family: 'Abel', sans-serif;
     font-weight: bolder;
     line-height: 33px;
     font-size: 25px;
 }
-
-
-
-
 
 .description{
     width: 100%;
@@ -39,14 +37,15 @@
     margin-bottom: 80px;
 
 }
+
 #ourstorypic{
     width: 360px;
     height: 360px;
-
     background-image: url("images/ourstory_oac.jpg");
     background-size: cover;
-    margin: auto;
+    margin-left: 5%;
 }
+
 .text{
     width: 90%;
     padding: 5%;
@@ -55,8 +54,8 @@
     line-height: 40px;
     color: #7a7a7a;
     letter-spacing: 1px;
-
 }
+
 .text h2{
     color: #222121;
 }
