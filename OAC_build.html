@@ -4,16 +4,13 @@
   <link rel="stylesheet" type="text/css" href="OAC_home.css">
   <link rel="stylesheet" type="text/css" href="OAC_general.css">
   <link rel="stylesheet" type="text/css" href="OAC_build.css">
-
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <script src="customizeOAC.js"></script>
   <script src="colorshiftOAC.js"></script>
-
-<script src="build.js"></script>
-
+  <script src="build.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-
-
+  <link rel="icon" type="image/png" href="images/favicon.png"/>
+  <title>Build Your Own</title>
 <script>
 // $(document).ready(function(){
 //   alert( $(window).width());
@@ -31,26 +28,21 @@
                           <span></span>
                           <span></span>
                           <span></span>
-
                           <ul id="menu">
                             <a href="OAC_home.html"><li>HOME</li></a>
                             <a href="OAC_about.html"><li>ABOUT</li></a>
                             <a href="OAC_description.html"><li>PRODUCTS</li></a>
-                          
                             <a href="OAC_build.html"><li>BUILD</li></a>
                             <a href="OAC_contact.html"><li>CONTACT</li></a>
                             <a href="OAC_animation.html"><li>BEHIND THE SCENES</li></a>
                             <a href="OAC_investors.html"><li>INVESTORS</li></a>
-
-
                             <a href="OAC_breakdown.html"><li>ASSIGNMENT BREAKDOWN</li></a>
-
-                              </ul>
+                          </ul>
 
                       </div> <!-- close menu troggle -->
                   </nav>
                   <div id="logo">
-                      <img id="logo_img" src="images/headerlogo_oac.png">
+                      <iframe id="frame" frameBorder="0" src="logo_animation/index.html"></iframe>
                   </div>
                   <div id="changecolor">
 
@@ -62,10 +54,35 @@
 
 
       </div> <!-- close headerbar-->
+      <div id="receipt">
+            <div id="close">close</div>
+          <h2>Your Receipt</h2><br>
+          Thank you, <span id="personName"> Name</span>, for your order!
+          <h3>Your Order Summary:</h3><br>
+           Primary beads: <span id="primary"></span></span> <br>
+           Secondary bead: <span id="secondary"></span></span> <br><br>
+           <span id="totalAmount"></span>
+           <br><br>
+           Shipping Address: <span id="ship">Some person's address</span><br><br>
+           <center>We will send a verification email to: <br>
+        <em><span id="emailverif">email address goes here</span></em><br>
+        when we send your order.</center>
+
+         <br><br><br>
+         <span><center>We appreciate your support in aiding endangered species across the world!  </center> </span>
+      </div>
       <div id="const">
 <h1 id="buildHeader"> Design Your Own </h1>
 <br><br>
-
+<h2>Please Enter Your Email Address:</h2> <br>
+<input type="text" id="emailtext"> 
+<br><br>
+<h2>Please Enter Your Address:</h2> <br>
+<input type="text" id="addresstext"> 
+<br><br>
+<h2>Please Enter Your Name:</h2> <br>
+<input type="text" id="nametext"> 
+<br><br>
 <h2>Select Your Primary Bead</h2>
 <div class="cent">
 <form>

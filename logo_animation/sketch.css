@@ -1,0 +1,10 @@
+body{
+	background-image: url("headerlogo_oac.png");
+	background-size: 80px;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+	margin: 0px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
