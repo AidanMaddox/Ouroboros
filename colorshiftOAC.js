@@ -79,7 +79,6 @@ function toDark(){
 
 
 	$(".assn").css("background-color","#101010");
-  $("#changecolor").css("background-color","white");
   $("#headerbar").css("background-color","#101010");
   $("#bottombar").css("background-color","#101010");
   $("body").css("background-color","#101010");
@@ -98,11 +97,11 @@ function toDark(){
   $("#missionpic").css("background-color","#101010");
   $("#outercontainer").css("background-color","#101010");
   $("#frame").attr("src", "logo_animation/index2.html");
+  $("#changecoloricon").attr("src","images/revert.svg");
 }
 
 function toLight(){
 	$(".assn").css("background-color","white");
-  $("#changecolor").css("background-color","#101010");
   $("#headerbar").css("background-color","white");
   $("#bottombar").css("background-color","white");
   $("body").css("background-color","white");
@@ -120,4 +119,5 @@ function toLight(){
   $("#missionpic").css("background-color","white");
   $("#outercontainer").css("background-color","white");
   $("#frame").attr("src", "logo_animation/index.html");
+  $("#changecoloricon").attr("src","images/invert.svg");
 }
