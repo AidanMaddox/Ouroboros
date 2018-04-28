@@ -201,7 +201,9 @@ iframe {
     color: rgb(141, 141, 141);
 }
 
-
+input {
+    outline: none; 
+}
 
 .button{
     width: 165px;
