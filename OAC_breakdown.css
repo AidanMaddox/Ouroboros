@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(161, 160, 160);
+}
+#maintext{
+    margin-top: 110px;
+    width: 90%;
+    padding: 5%;
+}
+
+.assn{
+    width: 300px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px 8px rgba(228, 228, 228, 0.404);
+    float: left;
+    font-size: 14pt;
+    margin: 15px;
+    padding: 20px;
+}
+.title{
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 18pt;
+    font-weight: bold;
+}
+.breakdiv{
+    width: 100%;
+    height: 20px;
+    clear: both;
+}

@@ -76,6 +76,9 @@ function colorShift(){
 
 
 function toDark(){
+
+
+	$(".assn").css("background-color","#101010");
   $("#changecolor").css("background-color","white");
   $("#headerbar").css("background-color","#101010");
   $("#bottombar").css("background-color","#101010");
@@ -98,6 +101,7 @@ function toDark(){
 }
 
 function toLight(){
+	$(".assn").css("background-color","white");
   $("#changecolor").css("background-color","#101010");
   $("#headerbar").css("background-color","white");
   $("#bottombar").css("background-color","white");

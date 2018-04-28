@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+
+
 $("#img1").delay(3000).animate({
 
    opacity: '0',
