@@ -3,8 +3,12 @@
     line-height: 18px;
     font-size: 30px;
     letter-spacing: 3px;
-    margin-left: 10%;
     margin-top: 200px;
+
+}
+#const{
+  text-align: center;
+  padding-left: 2%;
 }
 #mainIMG{
   position: absolute;
@@ -14,7 +18,60 @@
 #secondaryIMG{
   position: absolute;
   width: 300px;
-z-index: 2;
+  z-index: 2;
+}
+#bothimg{
+  position: absolute;
+  left: 42%;
+  margin-top: 40px;
+}
+.cent{
+  margin: auto;
+  text-align: center;
+}
+.button2{
+
+      width: 200px;
+      height: 33px;
+      border: solid black 2px;
+      margin-left: 20px;
+      display: block;
+      text-align: center;
+      padding-top: 17px;
+      padding-bottom: 33px;
+      letter-spacing: 3px;
+      font-size: 14px;
+      color: black;
+      float: left;
+
+
+  }
+.button2:hover{
+  border: solid gray 2px;
+}
+
+@media screen and (max-width: 500px){
+  .button2{
+    width: 160px;
+    margin: 10px;
+    font-size: 10px;
+  }
+
+  #bothimg{
+    left: 12%;
+  }
+}
+
+@media screen and (min-width: 401px){
+  #lava{
+    margin-left: 380px;
+  }
+  #lava2{
+    margin-left: 380px;
+  }
+}
+
+
 }
 
 button:focus {

@@ -4,13 +4,13 @@
   <link rel="stylesheet" type="text/css" href="OAC_home.css">
   <link rel="stylesheet" type="text/css" href="OAC_general.css">
 
-  <link rel="stylesheet" type="text/css" href="OAC_contact.css">
+<link rel="stylesheet" type="text/css" href="OAC_animation.css">
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <script src="customizeOAC.js"></script>
   <script src="colorshiftOAC.js"></script>
 
-  <script src="contactOAC.js"></script>
+    <script src="animation_oac.js"></script>
 
   <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 
@@ -32,10 +32,9 @@
                           <ul id="menu">
                                   <a href="OAC_home.html"><li>HOME</li></a>
                                   <a href="OAC_about.html"><li>ABOUT</li></a>
-                                  <a href="OAC_product.html"><li>SHOP</li></a>
+                                  <a href="OAC_shop.html"><li>SHOP</li></a>
                                   <a href="OAC_contact.html"><li>CONTACT</li></a>
                                   <a href="OAC_animation.html"><li>BEHIND THE SCENES</li></a>
-
                                   <dl>
                                          <li><dt id="investors"> FOR INVESTORS </dt></li>
                                          <a><dd class="investmenu">problem/solution</dd></a>
@@ -71,42 +70,18 @@
 
 
 
-<h1 id="contactHeader"> Contact</h1>
-<br>
-<form>
-<h2 id="cTitle"> Name*</h2>
-<input type="text" id="nameBox" placeholder="Name" autofocus required/>
+<h1 class="headerText"> Behind the Scenes</h1>
+<div id="containerOne">
 
-<div class="error" id="nameError">
-
-</div><!-- Close NAme Error -->
-
-<h2 id="cTitle"> Email*</h2>
-<input type="text" id="emailBox" placeholder="Email" required/>
-
-<div class="error" id="emailError">
+<img src="images/Timeline1.jpg" alt="Oops something went wrong" id="img1" >
+<img src="images/Timeline2.jpg" alt="Oops something went wrong" id="img2" >
+<img src="images/Timeline3.jpg" alt="Oops something went wrong" id="img3" >
+<img src="images/Timeline4.jpg" alt="Oops something went wrong" id="img4" >
+<img src="images/Timeline5.jpg" alt="Oops something went wrong" id="img5" >
+<img src="images/Fleet.jpg" alt="Oops something went wrong" id="img6" >
 
 
-</div> <!-- Close Email Error -->
-
-<h2 id="cTitle"> Subject</h2>
-<input type="text" id="subjectBox" placeholder="Subject"/>
-
-<h2 id="cTitle"> Message</h2>
-<textarea name="message" id="messageBox" rows="10" cols="50" placeholder="Your Message"></textarea>
-<div class="error" id="messageError">
-
-
-</div> <!-- Close Email Error -->
-
-<br>
-<br>
-<input id="submitButton" type="button" value="Submit">
-<br>
-<br>
-
-
-</form>
+</div><!-- Close Copntainer -->
 
       <div id="bottombar">
           <h2>OUROBOROS APPAREL CO.</h2>
@@ -130,10 +105,6 @@
 
 
       <script>
-
-          checkEmail();
-          checkName();
-          checkMessage();
           cookieCheck();
           colorShift();
       </script>

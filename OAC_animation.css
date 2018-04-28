@@ -1,0 +1,42 @@
+
+
+#containerOne{
+  width: 90%;
+  margin:auto;
+}
+
+img{
+  width: 100%;
+  -webkit-animation: fadein 2s;
+}
+
+#img1{
+  max-width: 80%;
+  position: absolute;
+  z-index: 5;
+}
+#img2{
+max-width: 80%;
+position: absolute;
+  z-index: 4;
+}
+#img3{
+  max-width: 80%;
+  position: absolute;
+  z-index: 3;
+}
+#img4{
+  max-width: 80%;
+  position: absolute;
+  z-index: 2;
+}
+#img5{
+  max-width: 80%;
+  position: absolute;
+  z-index: 1;
+}
+#img6{
+  max-width: 80%;
+  position: absolute;
+  z-index: 0;
+}
