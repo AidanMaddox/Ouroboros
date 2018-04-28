@@ -11,11 +11,17 @@ body{
     width: 300px;
     height: auto;
     background-color: rgb(255, 255, 255);
-    box-shadow: 1px 1px 10px 8px rgba(228, 228, 228, 0.404);
+    box-shadow: 1px 1px 6px 2px rgba(228, 228, 228, 0.5);
     float: left;
     font-size: 14pt;
     margin: 15px;
     padding: 20px;
+    transition: all .5s;
+}
+
+.assn:hover{
+    transform: scale(1.01);
+    box-shadow: 1px 1px 10px 8px rgba(228, 228, 228, 0.25);
 }
 .title{
     width: 100%;
