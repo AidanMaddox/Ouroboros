@@ -87,3 +87,14 @@ dd{
 .description {
     line-height: 30px;
 }
+
+.profile-icon {
+    width: 20px;
+    transition: all 1s;
+}
+
+.profile-icon:hover {
+    transform: scale(1.05);
+    transform: rotate(360deg);
+    opacity: .5;
+}
