@@ -173,6 +173,4 @@ $("#totalAmount").html(total);
 $("#ship").html(address);
 $("#emailverif").html(email);
 $("#receipt").css("visibility", "visible");
-
-alert($(window).width());
 }
