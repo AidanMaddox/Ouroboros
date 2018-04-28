@@ -2,6 +2,10 @@
     <head>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.timeliny@1.0.2/dist/jquery.timeliny.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/jquery.timeliny@1.0.2/dist/jquery.timeliny.min.js"></script>
+        <link rel="stylesheet" href="jquery.timeliny.min.css">
+        <script src="jquery.timeliny.min.js"></script>
 
         <link rel="stylesheet" type="text/css" href="OAC_investors.css">
         <link rel="stylesheet" type="text/css" href="OAC_general.css">
@@ -10,6 +14,7 @@
         <script src="colorshiftOAC.js"></script>
         <script src="OAC_investors.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+
         <title></title>
         <style>
 </style>
@@ -37,26 +42,17 @@
                         <span></span>
                         <span></span>
                         <ul id="menu">
-                            <a href="OAC_home.html">
-                                <li>HOME</li>
-                            </a>
-                            <a href="OAC_about.html">
-                                <li>ABOUT</li>
-                            </a>
-                            <a href="OAC_product.html">
-                                <li>SHOP</li>
-                            </a>
-                            <a href="OAC_build.html"><li>BUILD</li></a>
-                            <a href="OAC_contact.html">
-                                <li>CONTACT</li>
-                            </a>
-
-                            <a href="OAC_animation.html"><li>BEHIND THE SCENES</li></a>
-
-                            <a href="OAC_investors.html"><li>INVESTORS</li></a>
+                          <a href="OAC_home.html"><li>HOME</li></a>
+                          <a href="OAC_about.html"><li>ABOUT</li></a>
+                          <a href="OAC_description.html"><li>PRODUCTS</li></a>
+                        
+                          <a href="OAC_build.html"><li>BUILD</li></a>
+                          <a href="OAC_contact.html"><li>CONTACT</li></a>
+                          <a href="OAC_animation.html"><li>BEHIND THE SCENES</li></a>
+                          <a href="OAC_investors.html"><li>INVESTORS</li></a>
 
 
-                            <a href="OAC_breakdown.html"><li>ASSIGNMENT BREAKDOWN</li></a>
+                          <a href="OAC_breakdown.html"><li>ASSIGNMENT BREAKDOWN</li></a>
 
                         </ul>
                     </div>
@@ -504,6 +500,30 @@
             </div>
             <div class="breakdiv">
 </div>
+    <div id="timeline">
+            <h1 class="titleText">TIMELINE</h1><br>
+            <div id="example1">
+                    <div data-year="2017">Company was born :,) </div>
+                    <div data-year="2018" class="active">Sell Batch 2 of Bracelets</div>
+                    <div data-year="2019">Expand to Apparel </div>
+                    <div data-year="2020">Conquer Western World</div>
+                    <div data-year="2021">Go International!</div>
+                        </div>
+
+        <script>
+
+            $("#example1").timeliny();
+
+
+        </script>
+        </div>
+
+        <div id="learn">
+                <h1 class="titleText">WHAT WE'VE LEARNED</h1><br>
+                Altogether, the Lemonade Stand project was likely the most educational experience we’ve had at the Academy so far – acting as a culmination of everything we’ve learned across our classes. From pitches and design to development, every skill we’ve been working on was further honed and developed. The project, was also one of the most challenging ones we’ve undertaken all year, bringing out the best in every team member. While everything may not have gone as planned, the project was a truly unique opportunity to learn, grow, and bond with our team members.
+        </div>
+
+
             <div id="bottombar">
                 <h2>OUROBOROS APPAREL CO.</h2>
                 <br>
@@ -536,6 +556,7 @@
                 </form>
             </div>
         </div>
+
         <script>
         cookieCheck();
         colorShift();

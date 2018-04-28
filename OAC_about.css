@@ -31,24 +31,47 @@ a {
     text-decoration: none;
     margin: auto;
     margin-top: 50px;
-
 }
 
 dd{
     line-height: 20px;
+    text-align: center;
 }
 
 .team{
-    width: 120px;
+    width: 190px;
     margin: 20px;
     margin-left: 10%;
+}
+
+.more{
+  height: 200px;
+  margin: 20px;
+}
+
+.about{
+    height: 400px;
+    margin: 20px;
+}
+@media screen and (max-width: 500px){
+  .about{
+    height: auto;
+    width: 100%;
+    margin: 0px;
+  }
+  .more{
+    height: auto;
+    width: 80%;
+    margin: 10px;
+    text-align: center;
+  }
 }
 
 .bio {
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    width: 250px;
+    width: 360px;
 }
 
 .bio_caption {

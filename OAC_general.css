@@ -12,6 +12,7 @@ body {
     background-color: rgb(255, 255, 255);
 }
 #headerbar{
+  z-index: 6;
     position: fixed;
     top: 0px;
     width: 100%;

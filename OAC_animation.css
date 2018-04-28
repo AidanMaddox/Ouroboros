@@ -2,7 +2,7 @@
 
 #containerOne{
   width: 90%;
-  margin:auto;
+  margin-left: 9%;
 }
 
 img{
@@ -39,4 +39,9 @@ position: absolute;
   max-width: 80%;
   position: absolute;
   z-index: 0;
+}
+.breakdiv{
+  width: 100%;
+  height: 20px;
+  clear: both;
 }

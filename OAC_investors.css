@@ -23,6 +23,11 @@
 #problemSwitch{
     font-size: 2.5em;
 }
+#learn{
+    width: 100%;
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+}
 #solution{
     width: 86%;
     height: auto;
@@ -99,6 +104,11 @@
     padding-top: 10vh;
     padding-bottom: 40px;
     
+}
+#timeline{
+    width: 100%;
+    padding-top: 10vh;
+    padding-bottom: 40px;
 }
 .detail{
     width: 100%;
@@ -203,6 +213,18 @@ margin-top:60px;
         padding-bottom: 10vh;
         padding-left: 7%;
         padding-right: 7%;
+    }
+    #learn{
+        width: 86%;
+        height: auto;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    #timeline h1{
+        margin-left: 7%;
+
     }
     
 }
