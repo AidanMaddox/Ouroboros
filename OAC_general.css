@@ -34,7 +34,6 @@ iframe {
     width: 20px;
     height: 20px;
     border-radius: 100px;
-    background-color: rgb(51, 49, 49);
     position: relative;
     left: 88%;
     top: -50px;
@@ -42,13 +41,19 @@ iframe {
 }
 
 #changecolor_1 {
-    width: 20px;
-    height: 20px;
-    border-radius: 100px;
-    background-color: rgb(51, 49, 49);
     position: relative;
     left: 93%;
     top: -73px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    transition: all .5s;
+}
+
+.icon:hover{
+    opacity: .5;
 }
 
 #menuToggle{
@@ -211,6 +216,11 @@ iframe {
     letter-spacing: 3px;
     font-size: 14px;
     color: black;
+    transition: all .5s;
+}
+
+.button:hover{
+    opacity: .5;
 }
 
 #searchBox{
