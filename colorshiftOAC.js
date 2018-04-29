@@ -98,6 +98,7 @@ function toDark(){
   $("#outercontainer").css("background-color","#101010");
   $("#frame").attr("src", "logo_animation/index2.html");
   $("#changecoloricon").attr("src","images/revert.svg");
+  $("a").css("color","white");
 }
 
 function toLight(){
@@ -120,4 +121,5 @@ function toLight(){
   $("#outercontainer").css("background-color","white");
   $("#frame").attr("src", "logo_animation/index.html");
   $("#changecoloricon").attr("src","images/invert.svg");
+  $("a").css("color","#222121");
 }
