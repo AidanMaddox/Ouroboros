@@ -3,7 +3,6 @@ body {
     padding: 10px;
     font-family: 'Abel', sans-serif;
     color: #525252;
-
 }
 
 .regular a{
@@ -182,6 +181,7 @@ iframe {
     text-align: center;
     height: 460px;
 }
+
 #socialbar{
     margin: auto;
     width: auto;
@@ -189,21 +189,42 @@ iframe {
     text-align: center;
     margin-left: 38vw;
 }
+
 .social{
     width: 23px;
     display: block;
     margin: auto;
     float: left;
 }
+
 #insta{
     width: 18px;
     margin-top: 3px;
+    transition: all .5s;
 }
+
+#insta:hover{
+    opacity: .5;
+}
+
 #twitter{
     width: 18px;
     margin-top: 3px;
     margin-left: 5px;
+    transition: all .5s;
 }
+
+#twitter:hover{
+   opacity: .5;
+}
+
+#facebook {
+    transition: all .5s;
+}
+#facebook:hover{
+    opacity: .5;
+}
+
 #emailbox{
     height: 50px;
     width: 200px;
