@@ -98,7 +98,10 @@ function toDark(){
   $("#outercontainer").css("background-color","#101010");
   $("#frame").attr("src", "logo_animation/index2.html");
   $("#changecoloricon").attr("src","images/revert.svg");
-  $("a").css("color","white");
+  $(".regular a").css("color","white");
+  $(".profile-icon").attr("src","images/add_white.svg");
+  $("#missiontext").css("color","#222121");
+
 }
 
 function toLight(){
@@ -121,5 +124,6 @@ function toLight(){
   $("#outercontainer").css("background-color","white");
   $("#frame").attr("src", "logo_animation/index.html");
   $("#changecoloricon").attr("src","images/invert.svg");
-  $("a").css("color","#222121");
+  $(".regular a").css("color","#222121");
+  $(".profile-icon").attr("src","images/add_black.svg");
 }
