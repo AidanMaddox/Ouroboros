@@ -127,8 +127,11 @@
 			children.each(function( index ) {
 				var text = $(this).html();
 				var year = $(this).attr('data-year');
+				var time = $(this).attr('cap');
+				var step1 = $(this).attr('step');
+				var descr1 = $(this).attr('descr');
 
-				var dotHtml = '<a href="#' + year + '" class="' + options.className + '-dot" data-year="' + year + '" data-text="' + text + '"></a>';
+				var dotHtml = '<a href="#' + year + '" class="' + options.className + '-dot" step ="' + step1 +'" descr ="' + descr1 + '" cap ="' + year +'-dot" data-year="' + time+ '" data-text="' + text  + '"></a>';
 
 				$(this).addClass('' + options.className + '-timeblock').html(dotHtml);
 			});
@@ -179,17 +182,29 @@
 		 */
 		function _clickBehavior() {
 			children.parent().find('.' + options.className + '-timeblock:not(.inactive) .' + options.className + '-dot').on('click', function(e) {
+				var newStep = $(this).attr('step');
+				var newDes = $(this).attr('descr');
+				console.log(newStep);
+				console.log(newDes);
+				$("#stepNum").html(newStep);
+				$("#descr").html(newDes);
+
 				e.preventDefault();
 
 				var currYear = $(this).parent().parent().find('.' + options.className + '-timeblock.active').attr('data-year');
 				var nextYear = $(this).attr('data-year');
+				
 
 				if (currYear != nextYear) {
 					hook('onLeave', [currYear, nextYear]);
 
 					children.removeClass('active');
 					$(this).closest('.' + options.className + '-timeblock').addClass('active');
+					//var newStep = $(this).attr("step");
+					
 				}
+	
+				
 
 				_updateTimelinePos('click');
 
@@ -277,8 +292,8 @@
 						var currDiff = Math.abs(currDotPos - linePos);
 
 						if (currDiff < diff) {
-							console.log($(this).attr('data-year'));
-							closestDotYear = $(this).attr('data-year');
+							console.log($(this).attr('cap'));
+							closestDotYear = $(this).attr('cap');
 							diff = currDiff;
 						}
 					});
