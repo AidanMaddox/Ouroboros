@@ -2,8 +2,10 @@
     <head>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <link rel="stylesheet" href="jquery.timeliny.css">
-        <script src="jquery.timeliny.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.timeliny@1.0.2/dist/jquery.timeliny.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/jquery.timeliny@1.0.2/dist/jquery.timeliny.min.js"></script>
+        <link rel="stylesheet" href="jquery.timeliny.min.css">
+        <script src="jquery.timeliny.min.js"></script>
         <link rel="stylesheet" type="text/css" href="OAC_investors.css">
         <link rel="stylesheet" type="text/css" href="OAC_general.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -12,7 +14,6 @@
         <script src="OAC_investors.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
         <link rel="icon" type="image/png" href="images/favicon.png"/>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8">
         <title>Investors</title>
         <style>
 </style>
@@ -489,48 +490,23 @@
             </div>
             <div class="breakdiv">
 </div>
-<div id="timeline">
-    <h1 class="titleText">TIMELINE</h1><br>
-    <div id="example1">
-            <div data-year="2015" cap="October 2017" step = "Step 1" descr="This is when the team was formed. Little did we know we'de be (failing at) dumpster diving, and pivoting so many times. ">Start</div>
-            <div data-year="2016" cap="January 2018" step = "Step 2" descr="After pivoting multiple times, and trying to decide upon an idea that we all really loved and wanted to pursue, we finally decided to start a bracelet company centered around helping endangered species across the globe... Ouroboros Apparel Co.">Final Product Idea</div>
-            <div data-year="2017" cap="February 2018" step = "Step 3" descr="After finding our supplies and desiging our bracelets, the team started making these hand-crafted bracelets.">Production Starts </div>
-            <div data-year="2018" cap="March 2018" step = "Step 4" descr="Starting in March, we started selling our bracelets, first to students on campus at USC, and later through our website">Start Selling</div>
-            <div data-year="2019" cap="May 2018" step = "Step 5" class="active" descr="By the end of May 2018, or at least by the time we move out, we plan to sell the rest of the bracelets in Batch 1, and begin selling Batch 2 of bracelets">Sell Batch 2 of Bracelets</div>
-            <div data-year="2020" cap="December 2018" step = "Step 5" descr="We've been receiving a lot of requests to have shirts and other apparel with out Ouroboros logo on it, so starting by December 2018 we'd like to start selling Ouroboros Apparel">Expand to Apparel </div>
-            <div data-year="2021" cap="January 2019" step = "Step 7" descr="By this time.. let's start taking on the world, starting with the West.">Conquer Western World</div>
-            <div data-year="2022" cap="March 2019" step = "Step 8" descr="And this is where we take our products from simply shipping in the US, to shipping everywhere else!">Go International!</div>
-                </div>
-</div>
-<div id="maintext">
-    <h1 id="stepNum">
-        Step 5</h1>
-        <span id="descr">
-                By the end of May 2018, or at least by the time we move out, we plan to sell the rest of the bracelets in Batch 1, and begin selling Batch 2 of bracelets
-        </span>
-    
-</div>
-<script>
+    <div id="timeline">
+            <h1 class="titleText">TIMELINE</h1><br>
+            <div id="example1">
+                    <div data-year="2017">Company was born :,) </div>
+                    <div data-year="2018" class="active">Sell Batch 2 of Bracelets</div>
+                    <div data-year="2019">Expand to Apparel </div>
+                    <div data-year="2020">Conquer Western World</div>
+                    <div data-year="2021">Go International!</div>
+                        </div>
 
-$(function() {
-$('#example1').timeliny({
-    order: 'asc',
-    className: 'timeliny',
-    wrapper: '<div class="timeliny-wrapper"></div>',
-    boundaries: 0,
-    animationSpeed: 250,
-    hideBlankYears: false,
-    onInit: function() {},
-    onDestroy: function() {},
-    afterLoad: function(currYear) {},
-    onLeave: function(currYear, nextYear) {},
-    afterChange: function(currYear) {},
-    afterResize: function() {}
-});
-});
+        <script>
+
+            $("#example1").timeliny();
 
 
-</script>
+        </script>
+        </div>
 
         <div id="learn">
                 <h1 class="titleText">WHAT WE'VE LEARNED</h1><br>
@@ -542,15 +518,9 @@ $('#example1').timeliny({
                 <h2>OUROBOROS APPAREL CO.</h2>
                 <br>
                 <div id="socialbar">
-                    <a href="https://www.facebook.com" target="_blank">
-                        <img class="social" id="facebook" src="images/facebook_oac.png" alt="oops sorry this photo is missing!">
-                    </a>
-                    <a href="https://www.instagram.com/ouroboros.la" target="_blank">
-                        <img class="social" id="insta" src="images/insta_oac.png" alt="oops sorry this photo is missing!">
-                    </a>
-                    <a href="https://www.twitter.com" target="_blank">
-                        <img class="social" id="twitter" src="images/twitter_oac.png" alt="oops sorry this photo is missing!">
-                    </a>
+                    <a href="https://www.facebook.com/ouroboros.la/" target="_blank"><img class="social" id ="facebook" src="images/facebook_oac.png" alt="oops sorry this photo is missing!"></a>
+                    <a href="https://www.instagram.com/ouroboros.la" target="_blank"><img class="social" id ="insta" src="images/insta_oac.png" alt="oops sorry this photo is missing!"></a>
+                    <a href="https://www.twitter.com/Ouroboros_LA" target="_blank"><img class="social" id ="twitter" src="images/https://twitter.com/Ouroboros_LA" alt="oops sorry this photo is missing!"></a>
                 </div>
             </div>
         </div>
