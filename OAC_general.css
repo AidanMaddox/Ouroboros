@@ -5,6 +5,17 @@ body {
     color: #525252;
 
 }
+
+.regular a{
+    text-decoration: none;
+    color: #222121;
+    transition: all .5s;
+    font-weight: bold;
+}
+
+.regular a:hover {
+    opacity: .5;
+}
 #outercontainer{
     width: 100%;
     height: 100%;
@@ -63,7 +74,6 @@ iframe {
     left: 30px;
     z-index: 1;
     font-family: 'Montserrat', sans-serif;
-
     -webkit-user-select: none;
     user-select: none;
 
@@ -102,8 +112,8 @@ iframe {
     transform-origin: 3px 0px;
 
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-        background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-        opacity 0.55s ease;
+    background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+    opacity 0.55s ease;
 }
 #menuToggle span:first-child{
     transform-origin: 0% 0%;
