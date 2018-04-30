@@ -194,7 +194,7 @@ document.cookie = "Email=" + $("#emailtext").val();
 document.cookie = "Name=" + $("#nametext").val();
 document.cookie = "Address="+$("#addresstext").val();
 console.log(document.cookie);
-alert(document.cookie);
+//alert(document.cookie);
 
 
 })
