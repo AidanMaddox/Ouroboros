@@ -190,7 +190,11 @@ document.cookie = "Var1=" + var1;
 document.cookie = "Var2=" + var2;
 document.cookie = "name1=" + name1;
 document.cookie = "name2=" + name2;
-//alert(document.cookie);
+document.cookie = "Email=" + $("#emailtext").val();
+document.cookie = "Name=" + $("#nametext").val();
+document.cookie = "Address="+$("#addresstext").val();
+console.log(document.cookie);
+alert(document.cookie);
 
 
 })
@@ -201,6 +205,10 @@ var var1State;
 var var2State;
 var name1State;
 var name2State;
+
+var emailState;
+var cnameState;
+var addressState;
 
 
 
@@ -219,8 +227,14 @@ function check(){
   var2State = getCookie("Var2");
 	name1State = getCookie("name1");
 	name2State = getCookie("name2");
+	emailState = getCookie("Email");
+	cnameState = getCookie("Name");
+	addressState = getCookie("Address");
 
-  //alert("Primary Cookie = " + primState +"Secondary= " + secState + "Var1= "+ var1State + " Var2= "+ var2State);
+	$("#emailtext").val(emailState);
+$("#addresstext").val(addressState);
+$("#nametext").val(cnameState);
+	  //alert("Primary Cookie = " + primState +"Secondary= " + secState + "Var1= "+ var1State + " Var2= "+ var2State);
 
     if(primState == 0){
 
